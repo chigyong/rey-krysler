@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/bg/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+nav a {
+  text-decoration: none;
+}
+nav h2 {
+  color: rgb(228, 88, 112);
+  font-family: "Inspiration", sans-serif;
+  font-size: 35px;
+}
+nav .navbar-links ul {
+  display: flex;
+  list-style: none;
+}
+nav .navbar-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+}
+nav .navbar-links li a:hover {
+  color: red;
+  border-radius: 30px;
+  transition: 0.5s ease-in;
+}
+nav .menu-button {
+  position: absolute;
+  flex-direction: column;
+  top: 1rem;
+  right: 1rem;
+  display: none;
+}
+nav .menu-button .bars {
+  padding: 3px 15px;
+  background-color: black;
+  margin: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+section {
+  -webkit-animation: fadeIn 2s forwards;
+          animation: fadeIn 2s forwards;
+}
+section .content {
+  color: white;
+  text-align: left;
+  margin: 7rem 3rem;
+}
+section .content h1 {
+  padding: 0.5rem 0;
+}
+section .content h2 {
+  padding: 0.5rem 0;
+  color: rgb(228, 88, 112);
+  font-size: 25px;
+}
+section .content h3 {
+  padding: 0.5rem 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+section .content p {
+  padding-bottom: 2rem;
+}
+section .content .line {
+  padding: 1px;
+  background-color: red;
+}
+section .content img {
+  width: 25%;
+  border-radius: 25px;
+  margin: 2rem 0;
+}
+section .content span {
+  position: absolute;
+  margin: 10rem 10rem;
+  width: 50%;
+  text-align: justify;
+  z-index: -1;
+  line-height: 30px;
+  font-size: 20px;
+}
+section .content span p {
+  padding: 2rem 0;
+}
+
+.skills {
+  height: 30vh;
+  text-align: center;
+  background-color: rgb(145, 173, 229);
+}
+.skills img {
+  height: 150px;
+}
+.skills .card-skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 5rem;
+  font-size: 10px;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0;
+  color: white;
+}
+.container form h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container form input {
+  padding: 1rem 5rem 1rem 1rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin: 1rem 0;
+}
+.container form button {
+  border: solid red 3px;
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem 0;
+  border-radius: 15px;
+  margin: 2rem 0;
+  cursor: pointer;
+  width: 20%;
+}
+.container form textarea {
+  color: white;
+  background-color: transparent;
+  background-color: black;
+}
+.container input::-moz-placeholder {
+  color: white;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+.container input:-ms-input-placeholder {
+  color: white;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+.container input::placeholder {
+  color: white;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+.container button:hover {
+  background-color: white;
+  color: red;
+  transition: 0.5s ease-in;
+}
+
+footer {
+  background-color: #00071C;
+  padding: 2rem 3rem;
+  color: white;
+  text-align: justify;
+  line-height: 35px;
+}
+footer h1 {
+  color: rgb(228, 88, 112);
+  font-family: "Inspiration", sans-serif;
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+footer span {
+  font-weight: bold;
+  background: linear-gradient(45deg, #e66465, #9198e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .social-links {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-decoration: none;
+}
+footer .social-links img {
+  background-color: white;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+  nav .menu-button {
+    display: flex;
+  }
+  nav .menu-button.active .bars:nth-child(2) {
+    opacity: 0;
+  }
+  nav .menu-button.active .bars:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  nav .menu-button.active .bars:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+  nav .navbar-links {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: #00071C;
+    position: absolute;
+    top: 4.8rem;
+    left: 0;
+    padding-top: 5rem;
+  }
+  nav .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 5rem;
+  }
+  nav .navbar-links li a {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 0.5rem;
+    color: white;
+    font-weight: 400;
+  }
+  nav .navbar-links.active {
+    display: flex;
+  }
+  section .content {
+    margin: 5rem 2rem 3rem 2rem;
+  }
+  section .content img {
+    width: 100%;
+  }
+  section .content span {
+    display: contents;
+    margin: 2rem 0;
+    width: 85%;
+    text-align: justify;
+  }
+  section .content .container {
+    margin: 0;
+  }
+  section .content .container form button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .container {
+    margin: 0 1rem;
+  }
+  form {
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  form input {
+    padding: 2px 10px 2px 2px;
+  }
+  form textarea {
+    width: 100%;
+  }
+  input::-moz-placeholder {
+    font-size: 5px;
+  }
+  input:-ms-input-placeholder {
+    font-size: 5px;
+  }
+  input::placeholder {
+    font-size: 5px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .container {
+    margin: 0 1rem;
+  }
+  form {
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  form input {
+    padding: 2px 10px 2px 2px;
+  }
+  form textarea {
+    width: 100%;
+  }
+  input::-moz-placeholder {
+    font-size: 5px;
+  }
+  input:-ms-input-placeholder {
+    font-size: 5px;
+  }
+  input::placeholder {
+    font-size: 5px;
+  }
+  footer {
+    font-size: 13px;
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-2em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-2em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,.75),
+    rgba(0,0,0,.75)), url(../images/bg/bg3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rain1 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    animation: rain 1s infinite linear;
+    margin: 0 1rem;
+}
+.rain2 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 1.5s infinite linear;
+}
+.rain3 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 4.5s infinite linear;
+}
+.rain4 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 3s infinite linear;
+}
+.rain5 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 4s infinite linear;
+}
+.rain6 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 3.5s infinite linear;
+}
+.rain7 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 7s infinite linear;
+}
+.rain8 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 5.5s infinite linear;
+}
+.rain9 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 2s infinite linear;
+}
+.rain10 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 1.7s infinite linear;
+}
+.rain11 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 6s infinite linear;
+}
+.rain12 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 2.5s infinite linear;
+}
+.rain13 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 1.3s infinite linear;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+    padding: .5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+a {
+    text-decoration: none;
+}
+h2 {
+    color: rgb(228, 88, 112);
+    font-family: 'Inspiration', sans-serif;
+    font-size: 35px;
+}
+.navbar-links {
+ul {
+    display: flex;
+    list-style: none;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+li a:hover {
+    color: red;
+    border-radius: 30px;
+    transition: .5s ease-in;
+}
+}
+.menu-button {
+    position: absolute;
+    flex-direction: column;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+.bars {
+    padding: 3px 15px;
+    background-color: black;
+    margin: 2px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+}
+}
+
+section {
+    z-index: -1;
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+h4 {
+    border: solid red 3px;
+    margin: 1rem 0;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 15px;
+    background-color: black;
+}
+}
+h4:hover {
+    background-color: white;
+    color: red;
+    transition: .5s ease;
+}
+.live {
+    background-color: white;
+    color: red;
+}
+.live:hover {
+    background-color: black;
+}
+.content {
+    padding: 5rem 0;
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 35px;
+    margin: 5rem 0;
+}
+.grid-container {
+    animation: fadeIn 2s forwards;
+    margin: 1rem 10rem;
+
+img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.box {
+    margin: 1rem;
+    padding: 2rem;
+.info {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+h2 {
+    text-align: left;
+    margin: 1rem 0;
+}
+.tools-used {
+    display: flex;
+.box-tools {
+    padding: .5rem 2rem;
+    background-color: white;
+    color: black;
+    margin: 1rem .5rem 1rem 0;
+    border-radius: 30px;
+}
+
+}
+}
+.box-links {
+    display: flex;
+    justify-content: flex-start;
+a {
+    padding: 0 .5rem;
+}
+}
+}
+}
+
+}
+}
+footer {
+    background-color: #00071C;
+    padding: 2rem 3rem;
+    color: white;
+    text-align: justify;
+    line-height: 35px;
+    margin-top: 5rem;
+h1 {
+    color: rgb(228, 88, 112);
+    font-family: 'Inspiration', sans-serif;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+span {
+    font-weight: bold;
+    background: linear-gradient(45deg, #e66465, #9198e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-decoration: none;
+img {
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px;
+}
+.tuyu {
+    background: none;
+    cursor: pointer;
+    
+}
+}
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0; 
+        width: 100%;
+        padding: 1rem;
+    .menu-button {
+        display: flex;
+    }
+    .menu-button.active .bars:nth-child(2){
+        opacity: 0;
+    }
+    .menu-button.active .bars:nth-child(1){
+        transform: translateY(10px) rotate(45deg);
+    }
+    .menu-button.active .bars:nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+        height: 100vh;
+        background-color: #00071C;
+        position: absolute;
+        top: 4.8rem;
+        left: 0;
+        padding-top: 5rem;
+        
+    ul {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 5rem;
+    }
+    li a {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        padding: .5rem;
+        color: white;
+        font-weight: 400;
+    }
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+    }
+    section {
+    .content {
+        h1 {
+            font-size: 30px;
+            text-align: center;
+            line-height: 45px;
+        }
+    .grid-container {
+        margin: 1rem 0;
+   .box {
+    margin: 5rem 0;
+    .info {
+    .tools-used {
+    .box-tools {
+        padding: .5rem .5rem;
+        margin: 1rem 1rem 1rem 0;
+    }
+    }
+    }
+   }
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    }
+    }
+    }
+}
+@media only screen and (max-width:350px){
+    .grid-container {
+        .box {
+            h4 {
+                font-size: 10px;
+            }
+        .info {
+        .tools-used {
+            .box-tools {
+                font-size: 10px;
+            }
+        }
+        }
+        }
+    }
+    footer {
+      font-size: 13px;
+      margin-top: 0;
+    }
+}
+@keyframes fadeIn {
+
+    from{
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rain {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(4000px);
+    }
+}

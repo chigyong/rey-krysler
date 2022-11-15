@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+    url(../images/bg/thankyou-page.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 10rem;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    color: white;
+    flex-direction: column;
+h1 {
+    font-size: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, rgb(228, 88, 112), #fff, pink);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+  z-index: -1;
+}
+a {
+    text-decoration: none;
+    border: solid red 3px;
+    color: white;
+    padding: 1rem 5rem;
+    border-radius: 15px;
+    margin: 2rem;
+span {
+    font-size: 25px;
+    margin-right: .5rem;
+}
+}
+a:hover {
+    background-color: white;
+    color: red;
+    transition: .5s ease-in-out;
+}
+}
+@media only screen and (max-width:500px) {
+  .card {
+    margin-top: 1rem;
+    a {
+      padding: 0 5rem;
+      p {
+        width: max-content;
+        padding: .5rem 0;
+      span {
+        font-size: 25px;
+      }
+      }
+    }
+  }
+}
+@keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }

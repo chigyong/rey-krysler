@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,.75),
+    rgba(0,0,0,.75)), url(../images/bg/bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+//PRELOADER
+#preloader {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+.rain1 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 1.5s infinite linear;
+}
+.rain2 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 3.5s infinite linear;
+
+}
+.rain3 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 1s infinite linear;
+
+}
+.rain4 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 2s infinite linear;
+
+}
+.rain5 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 3.6s infinite linear;
+
+}
+.rain6 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 1s infinite linear;
+
+}
+.rain7 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 1.5s infinite linear;
+}
+.rain8 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 5.5s infinite linear;
+}
+.rain9 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 3.5s infinite linear;
+}
+.rain10 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 5.5s infinite linear;
+}
+.rain11 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 2.5s infinite linear;
+}
+.rain12 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 2.9s infinite linear;
+}
+.rain13 {
+    background-color: rgb(155, 155, 208);
+    height: 30px;
+    width: 5px;
+    border-radius: 50%;
+    animation: rain 4s infinite linear;
+}
+}
+
+//RAINING BACKGROUND
+.container {
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+}
+.container.active{
+    display: flex;
+}
+.rain1 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    animation: rain 1s infinite linear;
+    margin: 0 1rem;
+}
+.rain2 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 1.5s infinite linear;
+}
+.rain3 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 4.5s infinite linear;
+}
+.rain4 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 3s infinite linear;
+}
+.rain5 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 4s infinite linear;
+}
+.rain6 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 3.5s infinite linear;
+}
+.rain7 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 7s infinite linear;
+}
+.rain8 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 5.5s infinite linear;
+}
+.rain9 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 2s infinite linear;
+}
+.rain10 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 1.7s infinite linear;
+}
+.rain11 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 6s infinite linear;
+}
+.rain12 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 2.5s infinite linear;
+}
+.rain13 {
+    height: 15px;
+    width: 5px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 1.3s infinite linear;
+}
+
+//NAVIGATION BAR 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+    padding: .5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+
+a {
+    text-decoration: none;
+}
+h2 {
+    color: rgb(228, 88, 112);
+    font-family: 'Inspiration', sans-serif;
+    font-size: 35px;
+}
+.navbar-links {
+ul {
+    display: flex;
+    list-style: none;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+
+}
+
+li a:hover {
+    color: red;
+    border-radius: 30px;
+    transition: .5s ease-in;
+}
+}
+.menu-button {
+    position: absolute;
+    flex-direction: column;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+.bars {
+    padding: 3px 15px;
+    background-color: black;
+    margin: 2px;
+    -webkit-transition: all 0.3s ease-in-out ;
+    transition: all 0.3s ease-in-out;
+}
+}
+}
+
+//SECION CONTENT
+section {
+    color: white;
+    animation: fadeIn 2s forwards;
+    .content {
+        padding: 15rem 10rem 5rem 10rem;
+        height: 100vh;
+    h1 {
+      font-size: 40px;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, rgb(228, 88, 112), #fff, pink);
+      letter-spacing: 5px;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-repeat: no-repeat;
+      background-size: 80%;
+      animation: shine 5s linear infinite;
+      position: relative;
+      z-index: -1;
+    }
+    p {
+        padding: 1rem .5rem;
+        margin: 3rem 0;
+        font-size: 17px;
+        width: 50%;
+        text-align: justify;
+        line-height: 30px;
+
+    }
+    .resume {
+        border: solid red 2px;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .resume:hover {
+        background-color: white;
+        color: red;
+        transition: .5s ease-in-out;
+    }
+}
+}
+
+
+
+.social-links {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    text-decoration: none;
+img {
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 3px;
+
+}
+.tuyu {
+    background: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+}
+
+footer {
+    background-color: #00071C;
+    padding: 2rem 3rem;
+    color: white;
+    text-align: justify;
+    line-height: 35px;
+    width: 100%;
+    height: 100%;
+span {
+    font-weight: bold;
+    background: linear-gradient(45deg, #e66465, #9198e5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+h1 {
+    color: rgb(228, 88, 112);
+    font-family: 'Inspiration', sans-serif;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #preloader {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0; 
+        width: 100%;
+        padding: 1rem;
+    a {
+        z-index: 1;
+    }
+    .menu-button {
+        display: flex;
+    }
+    .menu-button.active .bars:nth-child(2){
+        opacity: 0;
+    }
+    .menu-button.active .bars:nth-child(1){
+        transform: translateY(10px) rotate(45deg);
+    }
+    .menu-button.active .bars:nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+        height: 100vh;
+        background-color: #00071C;
+        position: absolute;
+        top: 4.8rem;
+        left: 0;
+        padding-top: 5rem;
+    
+    ul {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 5rem;
+    }
+    li a {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        padding: .5rem;
+        color: white;
+        font-weight: 400;
+
+    }
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+    }
+    section {
+    .content {
+        margin: 10rem 2rem 0 2rem;
+        padding: 0;
+    p {
+        width: 100%;
+    }
+        .container {
+            form {
+              textarea {
+                width: 80%;
+                background-color: transparent;
+                width: 50%;
+              }
+              button {
+                width: 50%;
+              }
+            }
+        }
+    }  
+}
+footer {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width:350px){
+    footer {
+      font-size: 13px;
+    }
+}
+
+
+@keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  @keyframes fadeIn {
+
+    from{
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rain {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(900px);
+    }
+}
