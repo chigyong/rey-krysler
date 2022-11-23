@@ -471,14 +471,6 @@ footer h1 {
   section .content p {
     width: 100%;
   }
-  section .content .container form textarea {
-    width: 80%;
-    background-color: transparent;
-    width: 50%;
-  }
-  section .content .container form button {
-    width: 50%;
-  }
   footer {
     width: 100%;
   }
