@@ -482,6 +482,11 @@ footer h1 {
     font-size: 13px;
   }
 }
+@media only screen and (max-width: 320px) {
+  footer {
+    margin-top: 10rem;
+  }
+}
 @-webkit-keyframes shine {
   0% {
     background-position-x: -500%;
