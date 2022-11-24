@@ -239,6 +239,8 @@ img {
         top: 4.8rem;
         left: 0;
         padding-top: 5rem;
+        animation: swiping 1s ease-in-out;
+
     ul {
         flex-direction: column;
         width: 100%;
@@ -329,5 +331,10 @@ img {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+@keyframes swiping {
+    0% {
+        transform: translateX(500px);
     }
 }

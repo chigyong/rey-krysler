@@ -358,6 +358,8 @@ footer .social-links .tuyu {
     top: 4.8rem;
     left: 0;
     padding-top: 5rem;
+    -webkit-animation: swiping 1s ease-in-out;
+            animation: swiping 1s ease-in-out;
   }
   nav .navbar-links ul {
     flex-direction: column;
@@ -441,5 +443,15 @@ footer .social-links .tuyu {
   }
   100% {
     transform: translateY(4000px);
+  }
+}
+@-webkit-keyframes swiping {
+  0% {
+    transform: translateX(500px);
+  }
+}
+@keyframes swiping {
+  0% {
+    transform: translateX(500px);
   }
 }/*# sourceMappingURL=portfolio.css.map */
