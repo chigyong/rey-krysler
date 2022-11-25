@@ -48,6 +48,7 @@ nav .navbar-links li a:hover {
   color: red;
   border-radius: 30px;
   transition: 0.5s ease-in;
+  border-bottom: solid 1px white;
 }
 nav .menu-button {
   position: absolute;
