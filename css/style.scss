@@ -461,13 +461,14 @@ footer {
 }
 }
 
-@media only screen and (max-width:350px){
+@media only screen and (max-width:375px){
     footer {
       font-size: 13px;
     }
 }
 
 @media only screen and (max-width: 320px) {
+    
     footer {
         margin-top: 10rem;
     }
