@@ -357,13 +357,14 @@ a {
     .main-container {
         .menu {
             position: fixed;
+            top: 1rem;
         }
         .profile {
             height: 105vh;
             top: 3.8rem;
             .profile-links {
             position: absolute;
-            left: 2rem;
+            left: 1.5rem;
                 h2 {
                     font-size: 30px;
                 }
@@ -381,6 +382,9 @@ a {
                 padding-bottom: 5rem;
             }
         }
+    }
+    .social-links {
+        top: 1rem;
     }
     }
     

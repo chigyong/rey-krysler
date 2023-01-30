@@ -445,6 +445,7 @@ section .grid-container .box .box-links a {
 @media only screen and (max-width: 320px) {
   .main-container .menu {
     position: fixed;
+    top: 1rem;
   }
   .main-container .profile {
     height: 105vh;
@@ -452,7 +453,7 @@ section .grid-container .box .box-links a {
   }
   .main-container .profile .profile-links {
     position: absolute;
-    left: 3rem;
+    left: 1.5rem;
   }
   .main-container .profile .profile-links h2 {
     font-size: 30px;
@@ -468,6 +469,9 @@ section .grid-container .box .box-links a {
   }
   .grid-container .box .info .tools-used .box-tools {
     font-size: 10px;
+  }
+  .social-links {
+    top: 1rem;
   }
 }
 @-webkit-keyframes slide {

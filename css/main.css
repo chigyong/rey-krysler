@@ -369,6 +369,7 @@ body {
 @media only screen and (max-width: 320px) {
   .main-container .menu {
     position: fixed;
+    top: 1rem;
   }
   .main-container .profile {
     height: 105vh;
@@ -376,7 +377,7 @@ body {
   }
   .main-container .profile .profile-links {
     position: absolute;
-    left: 2rem;
+    left: 1.5rem;
   }
   .main-container .profile .profile-links h2 {
     font-size: 30px;
@@ -390,6 +391,9 @@ body {
   }
   .main-container section .first-content a {
     padding-bottom: 5rem;
+  }
+  .main-container .social-links {
+    top: 1rem;
   }
 }
 @-webkit-keyframes shine {
