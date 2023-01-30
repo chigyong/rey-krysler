@@ -293,7 +293,7 @@ body {
     display: flex;
     z-index: 1;
     position: fixed;
-    top: 2rem;
+    top: 1.5rem;
   }
   .main-container .menu.active .bars:nth-child(2) {
     opacity: 0;
