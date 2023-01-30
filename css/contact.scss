@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+    url(../images/bg/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+//RAINING BACKGROUND
+.container {
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+    z-index: 10;
+}
+.container.active{
+    display: flex;
+}
+.rain1 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    animation: rain 1s infinite linear;
+    margin: 0 1rem;
+}
+.rain2 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 1.5s infinite linear;
+}
+.rain3 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 4.5s infinite linear;
+}
+.rain4 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 3s infinite linear;
+}
+.rain5 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 4s infinite linear;
+}
+.rain6 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 3.5s infinite linear;
+}
+.rain7 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 7s infinite linear;
+}
+.rain8 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 5.5s infinite linear;
+}
+.rain9 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 2s infinite linear;
+}
+.rain10 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 1.7s infinite linear;
+}
+.rain11 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 6s infinite linear;
+}
+.rain12 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 2.5s infinite linear;
+}
+.rain13 {
+    height: 15px;
+    width: 2px;
+    background-color: rgb(155, 155, 208);
+    border-radius: 50%;
+    margin: 0 1rem;
+    animation: rain 1.3s infinite linear;
+}
+.main-container {
+    display: flex;
+    .profile {
+        width: 15%;
+        
+    .profile-links {
+        padding: 2rem;
+        position: fixed;
+        height: 100vh;
+        border-right: solid white 1px;
+
+        h2 {
+            color: pink;
+            font-family: 'Inspiration', sans-serif;
+            padding-left: .5rem;
+            font-size: 30px;
+            text-align: center;
+        }
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        padding-top: 5rem;
+        width: 100%;
+    }
+    li {
+        padding: 1rem;
+    }
+    li a {
+        color: white;
+        display: block;
+    }
+    li a:hover {
+        color: red;
+        border-radius: 15px;
+        transition: .5s ease-in-out;
+    }
+    i {
+        font-size: 30px;
+        padding-right: 1rem;
+    }
+    }
+    }
+   
+    .menu {
+        position: absolute;
+        flex-direction: column;
+        display: none;
+        top: 1rem;
+        left: 1rem;
+    .bars {
+        padding: 2px 15px;
+        margin: 3px;
+        background-color: white;
+        transition: .5s ease;
+    }
+    }
+}
+
+section {
+    width: 105%;
+    animation: fadeIn 2s forwards;
+   
+    .form-container {
+        margin: 0 5rem;
+        font-size: 10px;
+        
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 0;
+        color: white;
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    input {
+        padding: 1rem 5rem 1rem 1rem;
+        background-color: transparent;
+        border: none;
+        color: white;
+        margin: 1rem 0;
+    }
+    button {
+        border: solid red 3px;
+        background-color: transparent;
+        color: white;
+        padding: .5rem 0;
+        border-radius: 15px;
+        margin: 2rem 0;
+        cursor: pointer;
+        width: 20%;
+    
+    }
+    textarea {
+        color: white;
+        background-color: transparent;
+        background-color: black;
+    }
+    }
+    input::placeholder {
+        color: white;
+        font-size: 1rem;
+        opacity: .5;
+    }
+    
+    button:hover {
+        background-color: white;
+        color: red;
+        transition: .5s ease-in;
+    }
+    }
+}
+.social-links {
+    position: fixed;
+    top: 1.5rem;
+    right: 1rem;
+    text-decoration: none;
+    z-index: 10;
+img {
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 3px;
+
+}
+.tuyu {
+    background: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+}
+@media only screen and (max-width: 768px) {
+    .main-container {
+        .menu-bg {
+            /* From https://css.glass */
+            background: rgba(0, 0, 0, 0.52);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(15.1px);
+            -webkit-backdrop-filter: blur(15.1px);
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            width: 100%;
+            position: fixed;
+            height: 11vh;
+            z-index: 10;
+        }
+        .menu {
+            display: flex;
+            z-index: 1;
+            position: fixed;
+            top: 1.5rem;
+        }
+        .menu.active .bars:nth-child(2) {
+            opacity: 0;
+        }
+        .menu.active .bars:nth-child(1) {
+            transform: translateY(10px) rotate(45deg);
+        }
+        .menu.active .bars:nth-child(3) {
+            transform: translateY(-10px) rotate(-45deg);
+
+        }
+        .profile {
+            padding: 5rem 3rem;
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+            top: 5rem;
+            background: rgba(198, 185, 185, 0.3);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(14.2px);
+            -webkit-backdrop-filter: blur(14.2px);
+            border: 1px solid rgba(198, 185, 185, 0.3);
+            z-index: 1;
+            display: none;
+            animation: slide .5s ease-in-out;
+            overflow: hidden;
+            position: fixed;
+            .profile-links {
+                border: none;
+                width: 80%;
+                height: 100vh;
+                h2 {
+                    font-size: 35px;
+                }
+            li a {
+                font-size: 20px;
+            }
+            }
+        }
+    .profile.active {
+        display: flex;
+    }
+}
+
+section {
+    .form-container {
+        margin: 0 1rem;
+        padding: 5rem 0;
+        form {
+        button {
+            width: 30%;
+        }
+        } 
+    }
+}
+}
+@media only screen and (max-width: 400px){
+    .main-container {
+        .menu {
+            position: fixed;
+        }
+        .profile {
+            height: 105vh;
+            top: 3.8rem;
+            .profile-links {
+                position: absolute;
+                left: 4.5rem;
+                h2 {
+                    font-size: 30px;
+                }
+          
+            li a {
+                font-size: 20px;
+            }
+            }
+}
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .main-container {
+        .menu {
+            position: fixed;
+        }
+        .profile {
+            height: 105vh;
+            top: 3.8rem;
+            .profile-links {
+                position: absolute;
+                left: 2rem;
+                h2 {
+                    font-size: 30px;
+                }
+            i {
+                font-size: 20px;
+            }
+            li a {
+                font-size: 20px;
+            }
+            }
+        }
+    section {
+        .form-container {
+            margin: 0 1rem;
+        }
+    }
+    }
+    
+}
+  @keyframes slide {
+    0% {
+        transform: translateX(-500px);
+    }
+}
+@keyframes fadeIn {
+
+    from{
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes rain {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(900px);
+    }
+}

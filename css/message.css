@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/bg/thankyou-page.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 10rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  color: white;
+  flex-direction: column;
+}
+.card h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, rgb(228, 88, 112), #fff, pink);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  -webkit-animation: shine 5s linear infinite;
+          animation: shine 5s linear infinite;
+  position: relative;
+  z-index: -1;
+}
+.card a {
+  text-decoration: none;
+  border: solid red 3px;
+  color: white;
+  padding: 1rem 5rem;
+  border-radius: 15px;
+  margin: 2rem;
+}
+.card a span {
+  font-size: 25px;
+  margin-right: 0.5rem;
+}
+.card a:hover {
+  background-color: white;
+  color: red;
+  transition: 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    margin-top: 1rem;
+  }
+  .card a {
+    padding: 0 5rem;
+  }
+  .card a p {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 0.5rem 0;
+  }
+  .card a p span {
+    font-size: 25px;
+  }
+}
+@-webkit-keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}/*# sourceMappingURL=message.css.map */

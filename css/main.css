@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/bg/bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  align-items: center;
+  justify-content: space-around;
+  display: none;
+}
+
+.container.active {
+  display: flex;
+}
+
+.rain1 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  -webkit-animation: rain 1s infinite linear;
+          animation: rain 1s infinite linear;
+  margin: 0 1rem;
+}
+
+.rain2 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 1.5s infinite linear;
+          animation: rain 1.5s infinite linear;
+}
+
+.rain3 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 4.5s infinite linear;
+          animation: rain 4.5s infinite linear;
+}
+
+.rain4 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 3s infinite linear;
+          animation: rain 3s infinite linear;
+}
+
+.rain5 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 4s infinite linear;
+          animation: rain 4s infinite linear;
+}
+
+.rain6 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 3.5s infinite linear;
+          animation: rain 3.5s infinite linear;
+}
+
+.rain7 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 7s infinite linear;
+          animation: rain 7s infinite linear;
+}
+
+.rain8 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 5.5s infinite linear;
+          animation: rain 5.5s infinite linear;
+}
+
+.rain9 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 2s infinite linear;
+          animation: rain 2s infinite linear;
+}
+
+.rain10 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 1.7s infinite linear;
+          animation: rain 1.7s infinite linear;
+}
+
+.rain11 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 6s infinite linear;
+          animation: rain 6s infinite linear;
+}
+
+.rain12 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 2.5s infinite linear;
+          animation: rain 2.5s infinite linear;
+}
+
+.rain13 {
+  height: 15px;
+  width: 2px;
+  background-color: rgb(155, 155, 208);
+  border-radius: 50%;
+  margin: 0 1rem;
+  -webkit-animation: rain 1.3s infinite linear;
+          animation: rain 1.3s infinite linear;
+}
+
+.main-container {
+  display: flex;
+}
+.main-container .profile {
+  width: 15%;
+}
+.main-container .profile .profile-links {
+  padding: 2rem;
+  position: fixed;
+  height: 100vh;
+  border-right: solid white 1px;
+}
+.main-container .profile .profile-links h2 {
+  color: pink;
+  font-family: "Inspiration", sans-serif;
+  padding-left: 0.5rem;
+  font-size: 30px;
+  text-align: center;
+}
+.main-container .profile .profile-links ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 5rem;
+}
+.main-container .profile .profile-links li {
+  padding: 1rem;
+}
+.main-container .profile .profile-links li a {
+  color: white;
+  display: block;
+  text-align: center;
+}
+.main-container .profile .profile-links li a:hover {
+  color: red;
+  border-radius: 15px;
+  transition: 0.5s ease-in-out;
+}
+.main-container .menu {
+  position: absolute;
+  flex-direction: column;
+  display: none;
+  top: 1rem;
+  left: 1rem;
+}
+.main-container .menu .bars {
+  padding: 2px 15px;
+  margin: 3px;
+  background-color: white;
+  transition: 0.5s ease;
+}
+.main-container section {
+  color: white;
+  -webkit-animation: fadeIn 2s forwards;
+          animation: fadeIn 2s forwards;
+}
+.main-container section .first-content {
+  padding: 15rem 10rem 0 10rem;
+  height: 100vh;
+}
+.main-container section .first-content h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, rgb(228, 88, 112), #fff, pink);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  -webkit-animation: shine 5s linear infinite;
+          animation: shine 5s linear infinite;
+  position: relative;
+  z-index: -1;
+}
+.main-container section .first-content p {
+  padding: 1rem 0.5rem;
+  margin: 3rem 0;
+  font-size: 17px;
+  width: 50%;
+  text-align: justify;
+  line-height: 30px;
+}
+.main-container section .first-content .resume {
+  border: solid red 2px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+.main-container section .first-content .resume:hover {
+  background-color: white;
+  color: red;
+  transition: 0.5s ease-in-out;
+}
+.main-container .social-links {
+  position: fixed;
+  right: 1rem;
+  top: 1.5rem;
+  text-decoration: none;
+  z-index: 10;
+}
+.main-container .social-links img {
+  background-color: white;
+  border-radius: 15px;
+  margin: 0 3px;
+}
+.main-container .social-links .tuyu {
+  background: none;
+  cursor: pointer;
+}
+.main-container .social-links a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .main-container .menu-bg {
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.52);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.1px);
+    -webkit-backdrop-filter: blur(15.1px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: fixed;
+    height: 11vh;
+    z-index: 10;
+  }
+  .main-container .menu {
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    top: 2rem;
+  }
+  .main-container .menu.active .bars:nth-child(2) {
+    opacity: 0;
+  }
+  .main-container .menu.active .bars:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  .main-container .menu.active .bars:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+  .main-container .profile {
+    padding: 5rem 3rem;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 5rem;
+    background: rgba(198, 185, 185, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.2px);
+    -webkit-backdrop-filter: blur(14.2px);
+    border: 1px solid rgba(198, 185, 185, 0.3);
+    z-index: 1;
+    display: none;
+    -webkit-animation: slide 0.5s ease-in-out;
+            animation: slide 0.5s ease-in-out;
+    overflow: hidden;
+    position: fixed;
+  }
+  .main-container .profile .profile-links {
+    border: none;
+    width: 80%;
+    height: 100vh;
+  }
+  .main-container .profile .profile-links h2 {
+    font-size: 35px;
+  }
+  .main-container .profile .profile-links li a {
+    font-size: 20px;
+  }
+  .main-container .profile.active {
+    display: flex;
+  }
+  .main-container section {
+    height: 100vh;
+  }
+  .main-container section .first-content {
+    margin: 10rem 2rem 0 2rem;
+    padding: 0;
+  }
+  .main-container section .first-content p {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main-container .menu {
+    position: fixed;
+  }
+  .main-container .profile {
+    height: 105vh;
+    top: 3.8rem;
+  }
+  .main-container .profile .profile-links {
+    position: absolute;
+    left: 2.5rem;
+  }
+  .main-container .profile .profile-links h2 {
+    font-size: 30px;
+  }
+  .main-container .profile .profile-links li a {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .main-container .menu {
+    position: fixed;
+    top: 1.5rem;
+  }
+  .main-container .profile {
+    height: 105vh;
+    top: 3.8rem;
+  }
+  .main-container .profile .profile-links {
+    position: absolute;
+    left: 2rem;
+  }
+  .main-container .profile .profile-links h2 {
+    font-size: 30px;
+  }
+  .main-container .profile .profile-links li a {
+    font-size: 20px;
+  }
+  .main-container section {
+    height: 100vh;
+    margin-bottom: 15rem;
+  }
+  .main-container section .first-content a {
+    padding-bottom: 5rem;
+  }
+}
+@-webkit-keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-2em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-2em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    transform: translateX(-500px);
+  }
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-500px);
+  }
+}
+@-webkit-keyframes rain {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(700px);
+  }
+}
+@keyframes rain {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(700px);
+  }
+}/*# sourceMappingURL=main.css.map */
