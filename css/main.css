@@ -338,6 +338,9 @@ body {
   .main-container .profile .profile-links h2 {
     font-size: 35px;
   }
+  .main-container .profile .profile-links ul {
+    padding-top: 2rem;
+  }
   .main-container .profile .profile-links li a {
     font-size: 20px;
   }
@@ -385,11 +388,14 @@ body {
   }
   .main-container .profile .profile-links {
     position: absolute;
-    left: 1rem;
+    left: 1.5rem;
     top: 1rem;
   }
   .main-container .profile .profile-links h2 {
     font-size: 30px;
+  }
+  .main-container .profile .profile-links ul {
+    padding-top: 2rem;
   }
   .main-container .profile .profile-links li a {
     font-size: 20px;

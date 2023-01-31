@@ -278,8 +278,8 @@ section .form-container button:hover {
 
 .social-links {
   position: fixed;
-  top: 1.5rem;
   right: 1rem;
+  top: 1.5rem;
   text-decoration: none;
   z-index: 10;
 }
@@ -288,6 +288,10 @@ section .form-container button:hover {
   border-radius: 15px;
   margin: 0 3px;
   padding: 3px;
+}
+.social-links img:hover {
+  background-color: gray;
+  transition: 0.5s ease-in-out;
 }
 .social-links .tuyu {
   background: none;
@@ -404,8 +408,8 @@ section .form-container button:hover {
   .main-container .profile .profile-links h2 {
     font-size: 30px;
   }
-  .main-container .profile .profile-links i {
-    font-size: 20px;
+  .main-container .profile .profile-links ul {
+    padding-top: 2rem;
   }
   .main-container .profile .profile-links li a {
     font-size: 20px;

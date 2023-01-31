@@ -317,6 +317,9 @@ a {
             h2 {
                 font-size: 35px;
             }
+            ul {
+                padding-top: 2rem;
+            }
             li a {
                 font-size: 20px;
             }
@@ -372,10 +375,13 @@ a {
             top: 3.8rem;
             .profile-links {
             position: absolute;
-            left: 1rem;
+            left: 1.5rem;
             top: 1rem;
                 h2 {
                     font-size: 30px;
+                }
+                ul {
+                    padding-top: 2rem;
                 }
             li a {
                 font-size: 20px;

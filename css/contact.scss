@@ -247,8 +247,8 @@ section {
 }
 .social-links {
     position: fixed;
-    top: 1.5rem;
     right: 1rem;
+    top: 1.5rem;
     text-decoration: none;
     z-index: 10;
 img {
@@ -256,7 +256,10 @@ img {
     border-radius: 15px;
     margin: 0 3px;
     padding: 3px;
-
+}
+img:hover {
+    background-color: gray;
+    transition: .5s ease-in-out;
 }
 .tuyu {
     background: none;
@@ -385,9 +388,9 @@ section {
                 h2 {
                     font-size: 30px;
                 }
-            i {
-                font-size: 20px;
-            }
+                ul {
+                    padding-top: 2rem;
+                }
             li a {
                 font-size: 20px;
             }
