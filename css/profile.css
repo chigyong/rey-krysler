@@ -326,6 +326,11 @@ section .grid-container .box .box-links a {
   background-color: white;
   border-radius: 15px;
   margin: 0 3px;
+  padding: 5px;
+}
+.social-links img:hover {
+  background-color: gray;
+  transition: 0.5s ease-in-out;
 }
 .social-links .tuyu {
   background: none;

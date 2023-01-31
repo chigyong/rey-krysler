@@ -163,6 +163,7 @@ body {
     li a {
         color: white;
         display: block;
+        
     }
     li a:hover {
         color: red;
@@ -255,7 +256,11 @@ img {
     background-color: white;
     border-radius: 15px;
     margin: 0 3px;
-
+    padding: 5px;;
+}
+img:hover {
+    background-color: gray;
+    transition: .5s ease-in-out;
 }
 .tuyu {
     background: none;
