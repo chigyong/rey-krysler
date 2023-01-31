@@ -397,6 +397,9 @@ section .grid-container .box .box-links a {
   .main-container .profile .profile-links h2 {
     font-size: 35px;
   }
+  .main-container .profile .profile-links ul {
+    padding-top: 2rem;
+  }
   .main-container .profile .profile-links li a {
     font-size: 20px;
   }

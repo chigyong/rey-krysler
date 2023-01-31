@@ -358,6 +358,9 @@ section .form-container button:hover {
   .main-container .profile .profile-links h2 {
     font-size: 35px;
   }
+  .main-container .profile .profile-links ul {
+    padding-top: 2rem;
+  }
   .main-container .profile .profile-links li a {
     font-size: 20px;
   }
