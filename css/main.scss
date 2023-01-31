@@ -310,7 +310,9 @@ a {
         .profile-links {
             border: none; 
             width: 80%;
-            height: 100vh;           
+            height: 100vh; 
+            position: absolute;
+            left: 2rem;         
             h2 {
                 font-size: 35px;
             }
@@ -345,7 +347,7 @@ a {
             top: 3.8rem;
             .profile-links {
                 position: absolute;
-                left: 2.5rem;
+                left: 2rem;
                 h2 {
                     font-size: 30px;
                 }

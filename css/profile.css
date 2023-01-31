@@ -374,6 +374,7 @@ section .grid-container .box .box-links a {
     width: 100%;
     position: absolute;
     top: 5rem;
+    /* From https://css.glass */
     background: rgba(70, 28, 105, 0.59);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(12.8px);
@@ -388,8 +389,10 @@ section .grid-container .box .box-links a {
   }
   .main-container .profile .profile-links {
     border: none;
+    width: 80%;
+    height: 100vh;
     position: absolute;
-    left: 6rem;
+    left: 2rem;
   }
   .main-container .profile .profile-links h2 {
     font-size: 35px;
@@ -438,7 +441,7 @@ section .grid-container .box .box-links a {
   }
   .main-container .profile .profile-links {
     position: absolute;
-    left: 4.5rem;
+    left: 2rem;
   }
   .main-container .profile .profile-links h2 {
     font-size: 30px;

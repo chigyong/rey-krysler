@@ -332,6 +332,8 @@ body {
     border: none;
     width: 80%;
     height: 100vh;
+    position: absolute;
+    left: 2rem;
   }
   .main-container .profile .profile-links h2 {
     font-size: 35px;
@@ -363,7 +365,7 @@ body {
   }
   .main-container .profile .profile-links {
     position: absolute;
-    left: 2.5rem;
+    left: 2rem;
   }
   .main-container .profile .profile-links h2 {
     font-size: 30px;
