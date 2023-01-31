@@ -326,7 +326,7 @@ section .grid-container .box .box-links a {
   background-color: white;
   border-radius: 15px;
   margin: 0 3px;
-  padding: 5px;
+  padding: 3px;
 }
 .social-links img:hover {
   background-color: gray;
