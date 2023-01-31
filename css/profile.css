@@ -458,7 +458,8 @@ section .grid-container .box .box-links a {
   }
   .main-container .profile .profile-links {
     position: absolute;
-    left: 1.5rem;
+    left: 2.8rem;
+    top: 1rem;
   }
   .main-container .profile .profile-links h2 {
     font-size: 30px;

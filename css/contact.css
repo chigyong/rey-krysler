@@ -396,6 +396,7 @@ section .form-container button:hover {
   .main-container .profile .profile-links {
     position: absolute;
     left: 1.5rem;
+    top: 1rem;
   }
   .main-container .profile .profile-links h2 {
     font-size: 30px;
