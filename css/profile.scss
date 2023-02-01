@@ -172,13 +172,6 @@ section {
     width: 105%;
     animation: fadeIn 2s forwards;
 
-.about-container {
-    z-index: 10;
-    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
-    url(../images/bg/bg3.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
 .about {
     display: flex;
     align-items: center;
