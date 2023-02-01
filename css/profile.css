@@ -317,8 +317,8 @@ section .grid-container .box .box-links a {
 
 .social-links {
   position: fixed;
-  right: 1rem;
-  top: 1.5rem;
+  left: 1rem;
+  bottom: 2rem;
   text-decoration: none;
   z-index: 10;
 }
@@ -350,7 +350,7 @@ section .grid-container .box .box-links a {
     border: 1px solid rgba(0, 0, 0, 0.3);
     width: 100%;
     position: fixed;
-    height: 12vh;
+    height: 11vh;
     z-index: 10;
   }
   .main-container .menu {
@@ -484,9 +484,6 @@ section .grid-container .box .box-links a {
   }
   .grid-container .box .info .tools-used .box-tools {
     font-size: 10px;
-  }
-  .social-links {
-    top: 1rem;
   }
 }
 @-webkit-keyframes slide {
