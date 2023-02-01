@@ -267,6 +267,7 @@ body {
 .main-container .social-links img:hover {
   background-color: gray;
   transition: 0.5s ease-in-out;
+  transform: translateY(-1em);
 }
 .main-container .social-links .tuyu {
   background: none;
