@@ -612,7 +612,7 @@ section .grid-container .box .box-links a {
     transform: translateY(-100px);
   }
   100% {
-    transform: translateY(2300px);
+    transform: translateY(40 0px);
   }
 }
 @keyframes rain {
@@ -620,6 +620,6 @@ section .grid-container .box .box-links a {
     transform: translateY(-100px);
   }
   100% {
-    transform: translateY(2300px);
+    transform: translateY(40 0px);
   }
 }/*# sourceMappingURL=profile.css.map */
