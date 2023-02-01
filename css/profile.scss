@@ -304,6 +304,8 @@ a {
 }
 }
 .tech-stack {
+    margin: 0 20rem;
+
     h2 {
         color: white;
     }
@@ -314,14 +316,17 @@ a {
     justify-content: center;
     flex-direction: column;
     border: solid white 1px;
-    margin: 0 20rem;
     padding: 5rem;
+    margin: 5rem 0;
     border-radius: 15px;
    
     img {
         padding: 1rem;
         margin-top: 2rem;
-
+    }
+    img:hover {
+        transition: .5s ease-in-out;
+        transform: translateY(-1em);
     }
 }
 
@@ -331,14 +336,20 @@ a {
     justify-content: center;
     flex-direction: column;
     border: solid white 1px;
-    margin: 5rem 20rem;
     padding: 5rem;
+    margin: 5rem 0;
+
     border-radius: 15px;
+
 
     img {
         height: 100px;
         margin-top: 2rem;
         padding: 1rem;
+    }
+    img:hover {
+        transition: .5s ease-in-out;
+        transform: translateY(-1em);
     }
 }
 .coming-soon {
@@ -347,14 +358,19 @@ a {
     justify-content: center;
     flex-direction: column;
     border: solid white 1px;
-    margin: 5rem 20rem;
     padding: 5rem;
+    margin: 5rem 0;
+
     border-radius: 15px;
 
     img {
         height: 100px;
         margin-top: 2rem;
         padding: 1rem;
+    }
+    img:hover {
+        transition: .5s ease-in-out;
+        transform: translateY(-1em);
     }
 }
 }
@@ -613,6 +629,6 @@ section {
         transform: translateY(-100px);
     }
     100% {
-        transform: translateY(40    00px);
+        transform: translateY(4000px);
     }
 }

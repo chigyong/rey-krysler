@@ -16,4 +16,3 @@ rain.addEventListener('click', () => {
 
 //Hiding Grid an Stack in Profile Section
 
-
