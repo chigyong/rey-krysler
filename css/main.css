@@ -127,36 +127,6 @@ body {
           animation: rain 1.7s infinite linear;
 }
 
-.rain11 {
-  height: 15px;
-  width: 2px;
-  background-color: rgb(155, 155, 208);
-  border-radius: 50%;
-  margin: 0 1rem;
-  -webkit-animation: rain 6s infinite linear;
-          animation: rain 6s infinite linear;
-}
-
-.rain12 {
-  height: 15px;
-  width: 2px;
-  background-color: rgb(155, 155, 208);
-  border-radius: 50%;
-  margin: 0 1rem;
-  -webkit-animation: rain 2.5s infinite linear;
-          animation: rain 2.5s infinite linear;
-}
-
-.rain13 {
-  height: 15px;
-  width: 2px;
-  background-color: rgb(155, 155, 208);
-  border-radius: 50%;
-  margin: 0 1rem;
-  -webkit-animation: rain 1.3s infinite linear;
-          animation: rain 1.3s infinite linear;
-}
-
 .main-container {
   display: flex;
 }
@@ -260,12 +230,23 @@ body {
   z-index: 10;
 }
 .main-container .social-links img {
-  background-color: white;
-  border-radius: 15px;
   margin: 0 3px;
   padding: 3px;
 }
-.main-container .social-links img:hover {
+.main-container .social-links .github {
+  background-color: white;
+  border-radius: 15px;
+}
+.main-container .social-links .github:hover {
+  background-color: gray;
+  transition: 0.5s ease-in-out;
+  transform: translateY(-1em);
+}
+.main-container .social-links .linkedin {
+  background-color: white;
+  border-radius: 15px;
+}
+.main-container .social-links .linkedin:hover {
   background-color: gray;
   transition: 0.5s ease-in-out;
   transform: translateY(-1em);
