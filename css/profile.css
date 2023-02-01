@@ -219,6 +219,12 @@ section {
   -webkit-animation: fadeIn 2s forwards;
           animation: fadeIn 2s forwards;
 }
+section .about-container {
+  z-index: 10;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/bg/bg3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
 section .about {
   display: flex;
   align-items: center;
@@ -313,6 +319,57 @@ section .grid-container .box .box-links {
 }
 section .grid-container .box .box-links a {
   padding: 0 0.5rem;
+}
+
+.tech-stack {
+  padding-top: 5rem;
+}
+.tech-stack h2 {
+  color: white;
+}
+.tech-stack .front-end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: solid white 1px;
+  margin: 0 20rem;
+  padding: 5rem;
+  border-radius: 15px;
+}
+.tech-stack .front-end img {
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.tech-stack .essentials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: solid white 1px;
+  margin: 5rem 20rem;
+  padding: 5rem;
+  border-radius: 15px;
+}
+.tech-stack .essentials img {
+  height: 100px;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.tech-stack .coming-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: solid white 1px;
+  margin: 5rem 20rem;
+  padding: 5rem;
+  border-radius: 15px;
+}
+.tech-stack .coming-soon img {
+  height: 100px;
+  margin-top: 2rem;
+  padding: 1rem;
 }
 
 .social-links {
@@ -434,6 +491,18 @@ section .grid-container .box .box-links a {
     height: 50%;
     width: 100%;
   }
+  section .tech-stack .front-end {
+    margin: 2rem;
+    padding: 0;
+  }
+  section .tech-stack .essentials {
+    margin: 2rem;
+    padding: 0;
+  }
+  section .tech-stack .coming-soon {
+    margin: 2rem;
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 400px) {
   .main-container .menu {
@@ -485,6 +554,27 @@ section .grid-container .box .box-links a {
   }
   .grid-container .box .info .tools-used .box-tools {
     font-size: 10px;
+  }
+  .tech-stack .front-end {
+    margin: 2rem;
+    padding: 0;
+  }
+  .tech-stack .front-end img {
+    height: 80px;
+  }
+  .tech-stack .essentials {
+    margin: 2rem;
+    padding: 0;
+  }
+  .tech-stack .essentials img {
+    height: 80px;
+  }
+  .tech-stack .coming-soon {
+    margin: 2rem;
+    padding: 0;
+  }
+  .tech-stack .coming-soon img {
+    height: 80px;
   }
 }
 @-webkit-keyframes slide {

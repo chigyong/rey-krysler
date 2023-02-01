@@ -195,13 +195,20 @@ section {
     width: 105%;
     animation: fadeIn 2s forwards;
    
-    
+.about-container {
+    z-index: 10;
+    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+    url(../images/bg/bg3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
 .about {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5rem;
     gap: 2rem;
+    
     .left {
         .avatar {
             border-radius: 50%;
@@ -219,12 +226,14 @@ section {
     }
 }
 
+
 h1 {
     color: white;
     text-align: center;
     font-family: 'Press Start 2P', sans-serif;
     padding: 10rem 0 5rem 0;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -292,6 +301,61 @@ a {
 }
 }
 }
+}
+}
+.tech-stack {
+    h2 {
+        color: white;
+    }
+    padding-top: 5rem;
+.front-end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid white 1px;
+    margin: 0 20rem;
+    padding: 5rem;
+    border-radius: 15px;
+   
+    img {
+        padding: 1rem;
+        margin-top: 2rem;
+
+    }
+}
+
+.essentials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid white 1px;
+    margin: 5rem 20rem;
+    padding: 5rem;
+    border-radius: 15px;
+
+    img {
+        height: 100px;
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+}
+.coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid white 1px;
+    margin: 5rem 20rem;
+    padding: 5rem;
+    border-radius: 15px;
+
+    img {
+        height: 100px;
+        margin-top: 2rem;
+        padding: 1rem;
+    }
 }
 }
 .social-links {
@@ -419,6 +483,20 @@ section {
         width: 100%;
     }
     }
+.tech-stack {
+.front-end {
+    margin: 2rem;
+    padding: 0;
+}
+.essentials {
+    margin: 2rem;
+    padding: 0;
+}
+.coming-soon {
+    margin: 2rem;
+    padding: 0;
+}
+}
 }
 }
 @media only screen and (max-width: 400px){
@@ -489,7 +567,29 @@ section {
         }
         }
     }
-   
+    .tech-stack {
+        .front-end {
+            margin: 2rem;
+            padding: 0;
+        img {
+            height: 80px;
+        }
+        }
+        .essentials {
+            margin: 2rem;
+            padding: 0;
+            img {
+                height: 80px;
+            }
+        }
+        .coming-soon {
+            margin: 2rem;
+            padding: 0;
+            img {
+                height: 80px;
+            }
+        }
+        }
     
 }
   @keyframes slide {

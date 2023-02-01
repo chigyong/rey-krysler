@@ -13,3 +13,7 @@ const container = document.getElementsByClassName('container')[0];
 rain.addEventListener('click', () => {
     container.classList.toggle('active')
 })
+
+//Hiding Grid an Stack in Profile Section
+
+
