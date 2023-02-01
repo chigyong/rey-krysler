@@ -311,6 +311,10 @@ a {
         color: white;
     }
     padding-top: 5rem;
+.stack-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .front-end {
     display: flex;
     align-items: center;
@@ -584,25 +588,26 @@ section {
         }
     }
     .tech-stack {
+        margin: 2rem;
+
         .front-end {
-            margin: 2rem;
             padding: 0;
+        
         img {
-            height: 80px;
+            height: 75px;
+            
         }
         }
         .essentials {
-            margin: 2rem;
             padding: 0;
             img {
-                height: 80px;
+                height: 75px;
             }
         }
         .coming-soon {
-            margin: 2rem;
             padding: 0;
             img {
-                height: 80px;
+                height: 75px;
             }
         }
         }
