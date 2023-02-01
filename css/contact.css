@@ -249,8 +249,8 @@ section .form-container button:hover {
 
 .social-links {
   position: fixed;
-  left: 1.5rem;
-  bottom: 2rem;
+  right: 2rem;
+  top: 1rem;
   text-decoration: none;
   z-index: 10;
 }
