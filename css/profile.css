@@ -505,17 +505,17 @@ section .grid-container .box .box-links a {
     height: 50%;
     width: 100%;
   }
-  section .tech-stack .front-end {
+  section .tech-stack {
     margin: 2rem;
-    padding: 0;
+  }
+  section .tech-stack .front-end {
+    padding: 1rem;
   }
   section .tech-stack .essentials {
-    margin: 2rem;
-    padding: 0;
+    padding: 1rem;
   }
   section .tech-stack .coming-soon {
-    margin: 2rem;
-    padding: 0;
+    padding: 1rem;
   }
 }
 @media only screen and (max-width: 400px) {
