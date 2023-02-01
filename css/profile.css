@@ -21,7 +21,6 @@ body {
   align-items: center;
   justify-content: space-around;
   display: none;
-  z-index: 10;
 }
 
 .container.active {
@@ -362,7 +361,7 @@ section .grid-container .box .box-links a {
 
 .social-links {
   position: fixed;
-  right: 2rem;
+  right: 1rem;
   top: 1rem;
   text-decoration: none;
   z-index: 10;
@@ -547,6 +546,7 @@ section .grid-container .box .box-links a {
   }
   section .about {
     padding: 5rem 0;
+    font-size: 13px;
   }
   .grid-container .box h4 {
     font-size: 10px;

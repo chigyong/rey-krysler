@@ -18,12 +18,11 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-//RAINING BACKGROUND
-.container {
+   //RAINING BACKGROUND
+   .container {
     align-items: center;
     justify-content: space-around;
     display: none;
-    z-index: 10;
 }
 .container.active{
     display: flex;
@@ -172,7 +171,7 @@ body {
 section {
     width: 105%;
     animation: fadeIn 2s forwards;
-   
+
 .about-container {
     z-index: 10;
     background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
@@ -358,7 +357,7 @@ a {
 }
 .social-links {
     position: fixed;
-    right: 2rem;
+    right: 1rem;
     top: 1rem;
     text-decoration: none;
     z-index: 10;
@@ -557,7 +556,7 @@ section {
     section {
         .about {
             padding: 5rem 0;
-       
+            font-size: 13px;
         }
     }
     
