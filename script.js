@@ -14,4 +14,7 @@ rain.addEventListener('click', () => {
     container.classList.toggle('active')
 })
 
-
+//Visit Counts API
+function websiteVisits(response) {
+    document.querySelector("#visits").textContent = response.value;
+}

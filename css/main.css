@@ -221,6 +221,15 @@ body {
   color: red;
   transition: 0.5s ease-in-out;
 }
+.main-container section .visit {
+  position: absolute;
+  right: 1rem;
+  top: 44rem;
+  border: solid white 1px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: black;
+}
 .main-container .social-links {
   position: fixed;
   right: 1rem;
