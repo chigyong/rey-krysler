@@ -137,7 +137,6 @@ body {
   padding: 2rem;
   position: fixed;
   height: 100vh;
-  border-right: solid white 1px;
 }
 .main-container .profile .profile-links h2 {
   color: pink;
