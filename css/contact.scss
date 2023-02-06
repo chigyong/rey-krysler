@@ -296,12 +296,7 @@ a {
             width: 100%;
             position: absolute;
             top: 5rem;
-            /* From https://css.glass */
-            background: rgba(70, 28, 105, 0.59);
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(12.8px);
-            -webkit-backdrop-filter: blur(12.8px);
-            border: 1px solid rgba(70, 28, 105, 0.3);
+            background-color: black;
             z-index: 1;
             display: none;
             animation: slide .5s ease-in-out;
