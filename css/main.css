@@ -133,12 +133,13 @@ body {
   backdrop-filter: blur(16.4px);
   -webkit-backdrop-filter: blur(16.4px);
 }
-.main-container .profile .profile-links h2 {
+.main-container .profile .profile-links .logo {
   color: pink;
   font-family: "Inspiration", sans-serif;
   padding-left: 0.5rem;
   font-size: 30px;
   text-align: center;
+  font-weight: bold;
 }
 .main-container .profile .profile-links ul {
   display: flex;

@@ -125,13 +125,14 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(16.4px);
 -webkit-backdrop-filter: blur(16.4px);
 
-        h2 {
-            color: pink;
-            font-family: 'Inspiration', sans-serif;
-            padding-left: .5rem;
-            font-size: 30px;
-            text-align: center;
-        }
+.logo {
+    color: pink;
+    font-family: 'Inspiration', sans-serif;
+    padding-left: .5rem;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
     ul {
         display: flex;
         flex-direction: column;
