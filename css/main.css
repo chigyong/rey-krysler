@@ -127,6 +127,11 @@ body {
   padding: 2rem;
   position: fixed;
   height: 100vh;
+  /* From https://css.glass */
+  background: rgba(42, 39, 39, 0.33);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.4px);
+  -webkit-backdrop-filter: blur(16.4px);
 }
 .main-container .profile .profile-links h2 {
   color: pink;
@@ -298,6 +303,7 @@ body {
     height: 100vh;
     position: absolute;
     left: 2rem;
+    background: none;
   }
   .main-container .profile .profile-links h2 {
     font-size: 35px;
