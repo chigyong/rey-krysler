@@ -13,7 +13,7 @@
 }
 body {
     background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
-    url(../images/bg/bg6.jpg);
+    url(../images/bg/bg.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -125,14 +125,13 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(16.4px);
 -webkit-backdrop-filter: blur(16.4px);
 
-.logo {
-    color: pink;
-    font-family: 'Inspiration', sans-serif;
-    padding-left: .5rem;
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-}
+        h2 {
+            color: pink;
+            font-family: 'Inspiration', sans-serif;
+            padding-left: .5rem;
+            font-size: 30px;
+            text-align: center;
+        }
     ul {
         display: flex;
         flex-direction: column;
@@ -212,6 +211,7 @@ section {
     }
     textarea {
         color: white;
+        background-color: transparent;
         background-color: black;
     }
     }
@@ -312,10 +312,10 @@ a {
                 width: 80%;
                 height: 100vh; 
                 position: absolute;
-                left: 2rem; 
-                 background: none;      
+                left: 2rem;  
+            background: none;    
 
-                 .logo {
+                h2 {
                     font-size: 35px;
                 }
                 ul {
@@ -354,7 +354,7 @@ section {
             .profile-links {
                 position: absolute;
                 left: 2rem;
-                .logo {
+                h2 {
                     font-size: 30px;
                 }
           
@@ -379,7 +379,7 @@ section {
             position: absolute;
             left: 1.5rem;
             top: 1rem;
-                .logo {
+                h2 {
                     font-size: 30px;
                 }
                 ul {

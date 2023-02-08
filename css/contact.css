@@ -11,7 +11,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/bg/bg6.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/bg/bg.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -134,13 +134,12 @@ body {
   backdrop-filter: blur(16.4px);
   -webkit-backdrop-filter: blur(16.4px);
 }
-.main-container .profile .profile-links .logo {
+.main-container .profile .profile-links h2 {
   color: pink;
   font-family: "Inspiration", sans-serif;
   padding-left: 0.5rem;
   font-size: 30px;
   text-align: center;
-  font-weight: bold;
 }
 .main-container .profile .profile-links ul {
   display: flex;
@@ -217,6 +216,7 @@ section .form-container form button {
 }
 section .form-container form textarea {
   color: white;
+  background-color: transparent;
   background-color: black;
 }
 section .form-container input::-moz-placeholder {
@@ -321,7 +321,7 @@ section .form-container button:hover {
     left: 2rem;
     background: none;
   }
-  .main-container .profile .profile-links .logo {
+  .main-container .profile .profile-links h2 {
     font-size: 35px;
   }
   .main-container .profile .profile-links ul {
@@ -353,7 +353,7 @@ section .form-container button:hover {
     position: absolute;
     left: 2rem;
   }
-  .main-container .profile .profile-links .logo {
+  .main-container .profile .profile-links h2 {
     font-size: 30px;
   }
   .main-container .profile .profile-links li a {
@@ -374,7 +374,7 @@ section .form-container button:hover {
     left: 1.5rem;
     top: 1rem;
   }
-  .main-container .profile .profile-links .logo {
+  .main-container .profile .profile-links h2 {
     font-size: 30px;
   }
   .main-container .profile .profile-links ul {
