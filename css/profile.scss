@@ -441,7 +441,7 @@ a {
                 left: 2rem;      
                 background: none;      
 
-                h2 {
+                .logo {
                     font-size: 35px;
                 }
                 ul {
@@ -513,7 +513,7 @@ section {
             .profile-links {
                 position: absolute;
                 left: 2rem;
-                h2 {
+                .logo {
                     font-size: 30px;
                 }
           
@@ -537,7 +537,7 @@ section {
             position: absolute;
             left: 1.5rem;
             top: 1rem;
-                h2 {
+            .logo {
                     font-size: 30px;
                 }
                 ul {

@@ -321,7 +321,7 @@ section .form-container button:hover {
     left: 2rem;
     background: none;
   }
-  .main-container .profile .profile-links h2 {
+  .main-container .profile .profile-links .logo {
     font-size: 35px;
   }
   .main-container .profile .profile-links ul {
@@ -353,7 +353,7 @@ section .form-container button:hover {
     position: absolute;
     left: 2rem;
   }
-  .main-container .profile .profile-links h2 {
+  .main-container .profile .profile-links .logo {
     font-size: 30px;
   }
   .main-container .profile .profile-links li a {
@@ -374,7 +374,7 @@ section .form-container button:hover {
     left: 1.5rem;
     top: 1rem;
   }
-  .main-container .profile .profile-links h2 {
+  .main-container .profile .profile-links .logo {
     font-size: 30px;
   }
   .main-container .profile .profile-links ul {
