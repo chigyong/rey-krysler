@@ -33,8 +33,7 @@ body {
   width: 2px;
   background-color: rgb(155, 155, 208);
   border-radius: 50%;
-  -webkit-animation: rain 1s infinite linear;
-          animation: rain 1s infinite linear;
+  animation: rain 1s infinite linear;
   margin: 0 1rem;
 }
 
@@ -44,8 +43,7 @@ body {
   background-color: rgb(155, 155, 208);
   border-radius: 50%;
   margin: 0 1rem;
-  -webkit-animation: rain 1.5s infinite linear;
-          animation: rain 1.5s infinite linear;
+  animation: rain 1.5s infinite linear;
 }
 
 .rain3 {
@@ -54,8 +52,7 @@ body {
   background-color: rgb(155, 155, 208);
   border-radius: 50%;
   margin: 0 1rem;
-  -webkit-animation: rain 4.5s infinite linear;
-          animation: rain 4.5s infinite linear;
+  animation: rain 4.5s infinite linear;
 }
 
 .rain4 {
@@ -64,8 +61,7 @@ body {
   background-color: rgb(155, 155, 208);
   border-radius: 50%;
   margin: 0 1rem;
-  -webkit-animation: rain 3s infinite linear;
-          animation: rain 3s infinite linear;
+  animation: rain 3s infinite linear;
 }
 
 .rain5 {
@@ -74,8 +70,7 @@ body {
   background-color: rgb(155, 155, 208);
   border-radius: 50%;
   margin: 0 1rem;
-  -webkit-animation: rain 4s infinite linear;
-          animation: rain 4s infinite linear;
+  animation: rain 4s infinite linear;
 }
 
 .rain6 {
@@ -84,8 +79,7 @@ body {
   background-color: rgb(155, 155, 208);
   border-radius: 50%;
   margin: 0 1rem;
-  -webkit-animation: rain 3.5s infinite linear;
-          animation: rain 3.5s infinite linear;
+  animation: rain 3.5s infinite linear;
 }
 
 .rain7 {
@@ -94,8 +88,7 @@ body {
   background-color: rgb(155, 155, 208);
   border-radius: 50%;
   margin: 0 1rem;
-  -webkit-animation: rain 7s infinite linear;
-          animation: rain 7s infinite linear;
+  animation: rain 7s infinite linear;
 }
 
 .rain8 {
@@ -104,8 +97,7 @@ body {
   background-color: rgb(155, 155, 208);
   border-radius: 50%;
   margin: 0 1rem;
-  -webkit-animation: rain 5.5s infinite linear;
-          animation: rain 5.5s infinite linear;
+  animation: rain 5.5s infinite linear;
 }
 
 .rain9 {
@@ -114,8 +106,7 @@ body {
   background-color: rgb(155, 155, 208);
   border-radius: 50%;
   margin: 0 1rem;
-  -webkit-animation: rain 2s infinite linear;
-          animation: rain 2s infinite linear;
+  animation: rain 2s infinite linear;
 }
 
 .rain10 {
@@ -124,8 +115,7 @@ body {
   background-color: rgb(155, 155, 208);
   border-radius: 50%;
   margin: 0 1rem;
-  -webkit-animation: rain 1.7s infinite linear;
-          animation: rain 1.7s infinite linear;
+  animation: rain 1.7s infinite linear;
 }
 
 .main-container {
@@ -186,8 +176,7 @@ body {
 
 section {
   width: 105%;
-  -webkit-animation: fadeIn 2s forwards;
-          animation: fadeIn 2s forwards;
+  animation: fadeIn 2s forwards;
 }
 section .form-container {
   margin: 0 5rem;
@@ -226,11 +215,6 @@ section .form-container form textarea {
   background-color: black;
 }
 section .form-container input::-moz-placeholder {
-  color: white;
-  font-size: 1rem;
-  opacity: 0.5;
-}
-section .form-container input:-ms-input-placeholder {
   color: white;
   font-size: 1rem;
   opacity: 0.5;
@@ -320,8 +304,7 @@ section .form-container button:hover {
     background-color: black;
     z-index: 1;
     display: none;
-    -webkit-animation: slide 0.5s ease-in-out;
-            animation: slide 0.5s ease-in-out;
+    animation: slide 0.5s ease-in-out;
     overflow: hidden;
     position: fixed;
   }
@@ -398,24 +381,9 @@ section .form-container button:hover {
     margin: 0 1rem;
   }
 }
-@-webkit-keyframes slide {
-  0% {
-    transform: translateX(-500px);
-  }
-}
 @keyframes slide {
   0% {
     transform: translateX(-500px);
-  }
-}
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-2em);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
   }
 }
 @keyframes fadeIn {
@@ -426,14 +394,6 @@ section .form-container button:hover {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-@-webkit-keyframes rain {
-  0% {
-    transform: translateY(-100px);
-  }
-  100% {
-    transform: translateY(900px);
   }
 }
 @keyframes rain {

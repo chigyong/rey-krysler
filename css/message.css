@@ -32,8 +32,7 @@ body {
   -webkit-text-fill-color: transparent;
   background-repeat: no-repeat;
   background-size: 80%;
-  -webkit-animation: shine 5s linear infinite;
-          animation: shine 5s linear infinite;
+  animation: shine 5s linear infinite;
   position: relative;
   z-index: -1;
 }
@@ -63,21 +62,12 @@ body {
     padding: 0 5rem;
   }
   .card a p {
-    width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
     padding: 0.5rem 0;
   }
   .card a p span {
     font-size: 25px;
-  }
-}
-@-webkit-keyframes shine {
-  0% {
-    background-position-x: -500%;
-  }
-  100% {
-    background-position-x: 500%;
   }
 }
 @keyframes shine {
