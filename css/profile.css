@@ -11,13 +11,10 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg/ima-anime.gif);
-  background-size: contain;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg/bg3.jpg);
+  background-size: cover;
   background-attachment: fixed;
-  background-position: center;
   overflow-x: hidden;
-  background-repeat: no-repeat;
-  background-color: black;
 }
 
 .container {
