@@ -14,4 +14,7 @@ rain.addEventListener('click', () => {
     container.classList.toggle('active')
 })
 
-
+//Scrolling Effect
+AOS.init({
+    duration: 2000,
+  });
