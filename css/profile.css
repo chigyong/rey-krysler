@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 * {
   padding: 0;
@@ -135,7 +135,7 @@ body {
 }
 .main-container .profile .profile-links h2 {
   color: pink;
-  font-family: "Inspiration", sans-serif;
+  font-family: "Nanum Pen Script", sans-serif;
   padding-left: 0.5rem;
   font-size: 30px;
   text-align: center;
