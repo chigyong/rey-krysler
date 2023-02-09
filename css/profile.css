@@ -11,7 +11,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/bg/ima-anime.gif);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg/ima-anime.gif);
   background-size: contain;
   background-attachment: fixed;
   background-position: center;
