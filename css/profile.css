@@ -176,6 +176,7 @@ body {
   margin: 3px;
   background-color: white;
   transition: 0.5s ease;
+  border-radius: 20px;
 }
 
 section {
