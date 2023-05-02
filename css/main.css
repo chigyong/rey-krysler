@@ -334,8 +334,11 @@ body {
   .main-container section .first-content .left {
     padding: 10rem 1rem 3rem 1rem;
   }
+  .main-container section .first-content .left span {
+    font-size: 25px;
+  }
   .main-container section .first-content .left p {
-    width: 90%;
+    width: 80%;
   }
   .main-container section .first-content .right {
     padding: 0 0 5rem 0;

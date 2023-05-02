@@ -335,10 +335,14 @@ a {
         .first-content {
         padding: 0;
         flex-direction: column;
+  
     .left {
         padding: 10rem 1rem 3rem 1rem;
+        span {
+            font-size: 25px;
+          }
         p {
-            width: 90%;
+            width: 80%;
         }
     }
     .right {
