@@ -13,7 +13,7 @@
 }
 body {
     background-color: #00040f;
-    background-image: url(../images/bg/bg1.png);
+    background-image: url(../images/bg/main-bg.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -216,6 +216,7 @@ section {
         .right {
             img {
                 height: 600px;
+                animation: float 6s ease-in-out infinite;
             }
         }
         
@@ -444,4 +445,15 @@ a {
     100% {
         transform: translateY(700px);
     }
+}
+@keyframes float {
+	0% {	
+		transform: translatey(0px);
+	}
+	50% {	
+		transform: translatey(-20px);
+	}
+	100% {	
+		transform: translatey(0px);
+	}
 }
