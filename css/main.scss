@@ -12,10 +12,11 @@
     list-style: none;
 }
 body {
-    background-image: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)),
-    url(../images/bg/main-bg.png);
+    background-color: #00040f;
+    background-image: url(../images/bg/bg1.png);
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 //RAINING BACKGROUND
 .container {
@@ -172,8 +173,10 @@ section {
     animation: fadeIn 2s forwards;
     
     .first-content {
-        padding: 15rem 10rem 0 10rem;
+        display: flex;
         height: 100vh;
+    .left {
+        padding: 10rem 0 0 10rem;
         h1 {
             font-size: 40px;
             text-transform: uppercase;
@@ -192,7 +195,7 @@ section {
               padding: 1rem .5rem;
               margin: 3rem 0;
               font-size: 17px;
-              width: 50%;
+              width: 100%;
               text-align: justify;
               line-height: 30px;
       
@@ -209,6 +212,14 @@ section {
               color: red;
               transition: .5s ease-in-out;
           }
+    }
+    .right {
+        img {
+            height: 600px;
+            
+        }
+    }
+        
       }
      
 }
@@ -323,8 +334,17 @@ a {
     section {
         height: 100vh;
         .first-content {
+        flex-direction: column;
         margin: 10rem 2rem 0 2rem;
         padding: 0;
+        .left {
+            padding: 0;
+        }
+        .right {
+            img {
+                height: 300px;
+            }
+        }
         p {
             width: 100%;
         }
