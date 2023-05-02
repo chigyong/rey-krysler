@@ -24,6 +24,7 @@
     />
 
     <script src="script.js" defer></script>
+
     <title>Home | Rey Krysler</title>
   </head>
   <body>
@@ -67,8 +68,7 @@
         </div>
         <div class="first-content">
           <div class="left">
-            <span>Hi there, I'm a</span>
-            <h1>WEB DESIGNER</h1>
+            <p>Hello! I am?<br /><span class="ityped"></span></p>
             <p>
               Based from Philippines and currently living in Davao City. I enjoy
               creating things from scratch and seeing them come to life in the
@@ -112,5 +112,13 @@
         </a>
       </div>
     </div>
+
+    <script src="https://unpkg.com/ityped@0.0.10"></script>
+    <script>
+      window.ityped.init(document.querySelector(".ityped"), {
+        strings: ["UI/UX Designer", "Front End Developer", "Freelancer"],
+        loop: true,
+      });
+    </script>
   </body>
 </html>

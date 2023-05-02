@@ -176,20 +176,20 @@ section {
         display: flex;
         .left {
         padding: 10rem 0 0 10rem;
-            h1 {
-                font-size: 40px;
-                text-transform: uppercase;
-                background: linear-gradient(90deg, rgb(228, 88, 112), #fff, pink);
-                letter-spacing: 5px;
-                -webkit-background-clip: text;
-                background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-repeat: no-repeat;
-                background-size: 80%;
-                animation: shine 3.5s linear infinite;
-                position: relative;
-                z-index: -1;
-              }
+       
+        h1 {
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            color: #fff;  
+            font-weight: 400;
+        }
+        span {
+            font-weight: bold;
+            color: pink;
+            font-size: 30px;
+        }
               p {
                   padding: 1rem .5rem;
                   margin: 3rem 0;
@@ -456,3 +456,27 @@ a {
 		transform: translatey(0px);
 	}
 }
+@keyframes slidedown {
+    0% {
+      opacity: 50;
+    }
+    
+    5% {
+      opacity: 0;
+      transform: translateY(0.5em);
+    }
+    
+    7% {
+      transform: translateY(-1em);
+    }
+    
+    10% {
+      opacity: 0;
+    }
+    
+    20% {
+      transform: translateY(0);
+      opacity: 100;
+    }
+  }
+  
