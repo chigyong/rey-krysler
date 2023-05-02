@@ -119,11 +119,10 @@ body {
         padding: 2rem;
         position: fixed;
         height: 100vh;
-        /* From https://css.glass */
-background: rgba(42, 39, 39, 0.33);
+        background: rgba(0, 0, 0, 0.30);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(16.4px);
--webkit-backdrop-filter: blur(16.4px);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(11.8px);
 
         h2 {
             color: pink;
