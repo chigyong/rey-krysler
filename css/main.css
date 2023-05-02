@@ -11,11 +11,8 @@
 }
 
 body {
-  background-color: #00040f;
-  background-image: url(../images/bg/bg1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg/main-bg.png);
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -180,13 +177,10 @@ body {
   animation: fadeIn 2s forwards;
 }
 .main-container section .first-content {
-  display: flex;
+  padding: 15rem 10rem 0 10rem;
   height: 100vh;
 }
-.main-container section .first-content .left {
-  padding: 10rem 0 0 10rem;
-}
-.main-container section .first-content .left h1 {
+.main-container section .first-content h1 {
   font-size: 40px;
   text-transform: uppercase;
   background: linear-gradient(90deg, rgb(228, 88, 112), #fff, pink);
@@ -200,28 +194,25 @@ body {
   position: relative;
   z-index: -1;
 }
-.main-container section .first-content .left p {
+.main-container section .first-content p {
   padding: 1rem 0.5rem;
   margin: 3rem 0;
   font-size: 17px;
-  width: 100%;
+  width: 50%;
   text-align: justify;
   line-height: 30px;
 }
-.main-container section .first-content .left .resume {
+.main-container section .first-content .resume {
   border: solid red 2px;
   text-decoration: none;
   color: white;
   padding: 10px;
   border-radius: 15px;
 }
-.main-container section .first-content .left .resume:hover {
+.main-container section .first-content .resume:hover {
   background-color: white;
   color: red;
   transition: 0.5s ease-in-out;
-}
-.main-container section .first-content .right img {
-  height: 600px;
 }
 .main-container .social-links {
   position: fixed;
@@ -330,15 +321,8 @@ body {
     height: 100vh;
   }
   .main-container section .first-content {
-    flex-direction: column;
     margin: 10rem 2rem 0 2rem;
     padding: 0;
-  }
-  .main-container section .first-content .left {
-    padding: 0;
-  }
-  .main-container section .first-content .right img {
-    height: 300px;
   }
   .main-container section .first-content p {
     width: 100%;
