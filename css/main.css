@@ -399,6 +399,12 @@ body {
   .main-container section .first-content a {
     padding-bottom: 2rem;
   }
+  .main-container section .first-content .left p {
+    width: 100%;
+  }
+  .main-container section .first-content .right img {
+    height: 230px;
+  }
 }
 @keyframes shine {
   0% {
