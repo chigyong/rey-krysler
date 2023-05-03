@@ -368,6 +368,9 @@ body {
   .main-container .profile .profile-links li a {
     font-size: 20px;
   }
+  .main-container section .first-content .left p {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 320px) {
   .main-container .menu {

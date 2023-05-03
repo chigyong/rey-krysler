@@ -380,7 +380,16 @@ a {
             }
             }
 }
-   
+   section {
+    .first-content{
+        .left {
+            p {
+                width: 100%;
+            }
+        }
+    }
+    
+   }
     }
 }
 
