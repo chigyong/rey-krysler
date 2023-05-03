@@ -338,13 +338,13 @@ body {
     font-size: 25px;
   }
   .main-container section .first-content .left p {
-    width: 90%;
+    width: 100%;
   }
   .main-container section .first-content .right {
     padding: 0 0 5rem 0;
   }
   .main-container section .first-content .right img {
-    height: 270px;
+    height: 300px;
   }
 }
 @media only screen and (max-width: 400px) {
