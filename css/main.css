@@ -400,10 +400,10 @@ body {
     padding-bottom: 2rem;
   }
   .main-container section .first-content .left p {
-    width: 100%;
+    width: 90%;
   }
   .main-container section .first-content .right img {
-    height: 230px;
+    height: 200px;
   }
 }
 @keyframes shine {
